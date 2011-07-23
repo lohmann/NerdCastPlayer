@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* NerdcastPlayerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 656}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 945}";
+		};
+	};
+	1D3623250D0F684500981E51 /* NerdcastPlayerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 1989}}";
+			sepNavSelRange = "{529, 0}";
+			sepNavVisRange = "{0, 921}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* NerdcastPlayer */ = {
+		activeExec = 0;
+		executables = (
+			840A6880116377B400AB6C78 /* NerdcastPlayer */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 656}}";
+			sepNavSelRange = "{479, 0}";
+			sepNavVisRange = "{0, 1002}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 5005}}";
+			sepNavSelRange = "{726, 47}";
+			sepNavVisRange = "{265, 1481}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 840A6880116377B400AB6C78 /* NerdcastPlayer */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* NerdcastPlayer */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* NerdcastPlayer */,
+		);
+		breakpoints = (
+			84CEDC001163D2E5006994B5 /* DetailViewController.m:30 */,
+			84CEDCA31163DD7F006994B5 /* RootViewController.m:227 */,
+			84CEDCCF1163E016006994B5 /* DetailViewController.m:35 */,
+			8488FB5111667CAF000E9D90 /* DetailViewController.m:194 */,
+			8488FBFB1166B449000E9D90 /* iPhoneStreamingPlayerViewController.m:133 */,
+			8488FD581166D0BC000E9D90 /* iPhoneStreamingPlayerViewController.m:267 */,
+		);
+		codeSenseManager = 840A6892116377C000AB6C78 /* Code sense */;
+		executables = (
+			840A6880116377B400AB6C78 /* NerdcastPlayer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					766,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					726,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 294603337;
+			PBXWorkspaceStateSaveDate = 294603337;
+		};
+		perUserProjectItems = {
+			8488FBC51166B0DF000E9D90 /* PBXTextBookmark */ = 8488FBC51166B0DF000E9D90 /* PBXTextBookmark */;
+			8488FBC61166B0DF000E9D90 /* PBXTextBookmark */ = 8488FBC61166B0DF000E9D90 /* PBXTextBookmark */;
+			8488FBC71166B0DF000E9D90 /* PBXTextBookmark */ = 8488FBC71166B0DF000E9D90 /* PBXTextBookmark */;
+			8488FC3D1166BA30000E9D90 /* PBXTextBookmark */ = 8488FC3D1166BA30000E9D90 /* PBXTextBookmark */;
+			8488FCA31166C241000E9D90 /* PBXTextBookmark */ = 8488FCA31166C241000E9D90 /* PBXTextBookmark */;
+			8488FD3F1166CF07000E9D90 /* PBXTextBookmark */ = 8488FD3F1166CF07000E9D90 /* PBXTextBookmark */;
+			8488FD9E1166DBBF000E9D90 /* PlistBookmark */ = 8488FD9E1166DBBF000E9D90 /* PlistBookmark */;
+			8488FD9F1166DBBF000E9D90 /* PBXBookmark */ = 8488FD9F1166DBBF000E9D90 /* PBXBookmark */;
+			8489839E1163D17C0015E61D /* PBXTextBookmark */ = 8489839E1163D17C0015E61D /* PBXTextBookmark */;
+			84A3CE02118B51AF00C26720 /* PBXTextBookmark */ = 84A3CE02118B51AF00C26720 /* PBXTextBookmark */;
+			84A3CE04118B51AF00C26720 /* PBXTextBookmark */ = 84A3CE04118B51AF00C26720 /* PBXTextBookmark */;
+			84CE339E1191E9EF0088B4F8 /* PBXTextBookmark */ = 84CE339E1191E9EF0088B4F8 /* PBXTextBookmark */;
+			84CEDD351163F0A3006994B5 /* PBXTextBookmark */ = 84CEDD351163F0A3006994B5 /* PBXTextBookmark */;
+			84CEDD501163F42B006994B5 /* PBXTextBookmark */ = 84CEDD501163F42B006994B5 /* PBXTextBookmark */;
+			84CEDE0D11641C9E006994B5 /* PBXTextBookmark */ = 84CEDE0D11641C9E006994B5 /* PBXTextBookmark */;
+			84CEDE8B116434BE006994B5 /* PBXBookmark */ = 84CEDE8B116434BE006994B5 /* PBXBookmark */;
+			84CEDF02116443B4006994B5 /* PBXBookmark */ = 84CEDF02116443B4006994B5 /* PBXBookmark */;
+			84DDCDDD116FCA5A00221381 /* PBXTextBookmark */ = 84DDCDDD116FCA5A00221381 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 840A6891116377C000AB6C78 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	840A6880116377B400AB6C78 /* NerdcastPlayer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = NerdcastPlayer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	840A6891116377C000AB6C78 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	840A6892116377C000AB6C78 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	840A69091163815A00AB6C78 /* DetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 585}}";
+			sepNavSelRange = "{786, 0}";
+			sepNavVisRange = "{259, 808}";
+		};
+	};
+	840A690A1163815A00AB6C78 /* DetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 3367}}";
+			sepNavSelRange = "{1003, 84}";
+			sepNavVisRange = "{232, 1570}";
+		};
+	};
+	840A69E71163B7CB00AB6C78 /* AudioStreamer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 2366}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1105}";
+		};
+	};
+	840A69E81163B7CB00AB6C78 /* AudioStreamer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 24219}}";
+			sepNavSelRange = "{25414, 1}";
+			sepNavVisRange = "{24407, 946}";
+		};
+	};
+	8488FB5111667CAF000E9D90 /* DetailViewController.m:194 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 840A690A1163815A00AB6C78 /* DetailViewController.m */;
+		functionName = "-sliderMoved:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 194;
+		modificationTime = 294265254.622137;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	8488FB881166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 663}}";
+			sepNavSelRange = "{1021, 0}";
+			sepNavVisRange = "{0, 1365}";
+		};
+	};
+	8488FB891166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 4550}}";
+			sepNavSelRange = "{7837, 0}";
+			sepNavVisRange = "{2272, 1214}";
+		};
+	};
+	8488FBC51166B0DF000E9D90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 840A69E81163B7CB00AB6C78 /* AudioStreamer.m */;
+		name = "AudioStreamer.m: 940";
+		rLen = 1;
+		rLoc = 25414;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 24407;
+	};
+	8488FBC61166B0DF000E9D90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* NerdcastPlayerAppDelegate.h */;
+		name = "NerdcastPlayerAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 0;
+	};
+	8488FBC71166B0DF000E9D90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84CEDD7F11641485006994B5 /* IconDownloader.m */;
+		name = "IconDownloader.m: 81";
+		rLen = 22;
+		rLoc = 3298;
+		rType = 0;
+		vrLen = 1241;
+		vrLoc = 2943;
+	};
+	8488FBFB1166B449000E9D90 /* iPhoneStreamingPlayerViewController.m:133 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 8488FB891166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 133;
+		location = NerdcastPlayer;
+		modificationTime = 294265229.965485;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	8488FC3D1166BA30000E9D90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 840A690A1163815A00AB6C78 /* DetailViewController.m */;
+		name = "DetailViewController.m: 41";
+		rLen = 84;
+		rLoc = 1003;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 232;
+	};
+	8488FCA31166C241000E9D90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488FCA41166C241000E9D90 /* math.h */;
+		name = "math.h: 385";
+		rLen = 32;
+		rLoc = 15807;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 14946;
+	};
+	8488FCA41166C241000E9D90 /* math.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = math.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/architecture/i386/math.h;
+		sourceTree = "<absolute>";
+	};
+	8488FD3F1166CF07000E9D90 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488FB881166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.h */;
+		name = "iPhoneStreamingPlayerViewController.h: 35";
+		rLen = 0;
+		rLoc = 1021;
+		rType = 0;
+		vrLen = 1365;
+		vrLoc = 0;
+	};
+	8488FD581166D0BC000E9D90 /* iPhoneStreamingPlayerViewController.m:267 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 8488FB891166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m */;
+		functionName = "-formatTimeWithInterval:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 267;
+		modificationTime = 294265254.622099;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	8488FD9E1166DBBF000E9D90 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NerdcastPlayer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/datasul/Projects/iPhone/personal/NerdcastPlayer/NerdcastPlayer-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8488FD9F1166DBBF000E9D90 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8488FD8D1166D5D8000E9D90 /* Icon.jpg */;
+	};
+	8489839E1163D17C0015E61D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* NerdcastPlayerAppDelegate.m */;
+		name = "NerdcastPlayerAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 529;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 0;
+	};
+	84A3CE02118B51AF00C26720 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 35";
+		rLen = 47;
+		rLoc = 726;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 265;
+	};
+	84A3CE04118B51AF00C26720 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 19";
+		rLen = 0;
+		rLoc = 479;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 0;
+	};
+	84CE339E1191E9EF0088B4F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 19";
+		rLen = 0;
+		rLoc = 479;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 0;
+	};
+	84CEDC001163D2E5006994B5 /* DetailViewController.m:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 840A690A1163815A00AB6C78 /* DetailViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = NerdcastPlayer;
+		modificationTime = 294265229.965314;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	84CEDCA31163DD7F006994B5 /* RootViewController.m:227 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-parser:didEndElement:namespaceURI:qualifiedName:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 227;
+		location = NerdcastPlayer;
+		modificationTime = 294265229.965398;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	84CEDCCF1163E016006994B5 /* DetailViewController.m:35 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 840A690A1163815A00AB6C78 /* DetailViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 35;
+		location = NerdcastPlayer;
+		modificationTime = 294265229.9654161;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	84CEDD351163F0A3006994B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 840A69E71163B7CB00AB6C78 /* AudioStreamer.h */;
+		name = "AudioStreamer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1105;
+		vrLoc = 0;
+	};
+	84CEDD501163F42B006994B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 840A69091163815A00AB6C78 /* DetailViewController.h */;
+		name = "DetailViewController.h: 30";
+		rLen = 0;
+		rLoc = 724;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 95;
+	};
+	84CEDD7F11641485006994B5 /* IconDownloader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 1846}}";
+			sepNavSelRange = "{3298, 22}";
+			sepNavVisRange = "{2943, 1241}";
+		};
+	};
+	84CEDD8011641485006994B5 /* IconDownloader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 1118}}";
+			sepNavSelRange = "{3649, 0}";
+			sepNavVisRange = "{2873, 807}";
+		};
+	};
+	84CEDE0D11641C9E006994B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84CEDD8011641485006994B5 /* IconDownloader.h */;
+		name = "IconDownloader.h: 84";
+		rLen = 0;
+		rLoc = 3649;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 2873;
+	};
+	84CEDE8B116434BE006994B5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84CEDE83116434A1006994B5 /* tit_podcast.gif */;
+	};
+	84CEDF02116443B4006994B5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 84CEDDD511641AEF006994B5 /* Placeholder.png */;
+	};
+	84DDCDDD116FCA5A00221381 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8488FB891166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m */;
+		name = "iPhoneStreamingPlayerViewController.m: 315";
+		rLen = 0;
+		rLoc = 7837;
+		rType = 0;
+		vrLen = 1214;
+		vrLoc = 2272;
+	};
+}

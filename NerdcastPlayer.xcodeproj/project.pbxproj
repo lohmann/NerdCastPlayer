@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* NerdcastPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NerdcastPlayerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28860B770F44E54D00985440 /* NerdcastPlayer.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28860B760F44E54D00985440 /* NerdcastPlayer.xcdatamodel */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		840A690C1163815A00AB6C78 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A690A1163815A00AB6C78 /* DetailViewController.m */; };
+		840A690D1163815A00AB6C78 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840A690B1163815A00AB6C78 /* DetailViewController.xib */; };
+		840A6912116384F000AB6C78 /* jn_classico_celular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840A6911116384F000AB6C78 /* jn_classico_celular.jpg */; };
+		840A69E91163B7CB00AB6C78 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A69E81163B7CB00AB6C78 /* AudioStreamer.m */; };
+		840A69FC1163B80300AB6C78 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840A69FB1163B80300AB6C78 /* MediaPlayer.framework */; };
+		840A6A041163B81E00AB6C78 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840A6A031163B81E00AB6C78 /* AudioToolbox.framework */; };
+		840A6A061163B81E00AB6C78 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840A6A051163B81E00AB6C78 /* CFNetwork.framework */; };
+		840A6B121163B83F00AB6C78 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840A6B111163B83F00AB6C78 /* QuartzCore.framework */; };
+		840A6BE11163C0A400AB6C78 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A6BD41163C0A400AB6C78 /* ASIAuthenticationDialog.m */; };
+		840A6BE21163C0A400AB6C78 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A6BD61163C0A400AB6C78 /* ASIFormDataRequest.m */; };
+		840A6BE31163C0A400AB6C78 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A6BD81163C0A400AB6C78 /* ASIHTTPRequest.m */; };
+		840A6BE41163C0A400AB6C78 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A6BDA1163C0A400AB6C78 /* ASIInputStream.m */; };
+		840A6BE51163C0A400AB6C78 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A6BDC1163C0A400AB6C78 /* ASINetworkQueue.m */; };
+		840A6BE61163C0A400AB6C78 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A6BDE1163C0A400AB6C78 /* ASINSStringAdditions.m */; };
+		840A6BE71163C0A400AB6C78 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A6BE01163C0A400AB6C78 /* Reachability.m */; };
+		840A6C141163C0F900AB6C78 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 840A6C131163C0F900AB6C78 /* libz.1.2.3.dylib */; };
+		840A6C441163C13000AB6C78 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840A6C431163C13000AB6C78 /* SystemConfiguration.framework */; };
+		8488FB8A1166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488FB891166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m */; };
+		8488FB8C1166AA42000E9D90 /* iPhoneStreamingPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8488FB8B1166AA42000E9D90 /* iPhoneStreamingPlayerViewController.xib */; };
+		8488FB9C1166AC1A000E9D90 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488FB981166AC1A000E9D90 /* loadingbutton.png */; };
+		8488FB9D1166AC1A000E9D90 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488FB991166AC1A000E9D90 /* pausebutton.png */; };
+		8488FB9E1166AC1A000E9D90 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488FB9A1166AC1A000E9D90 /* playbutton.png */; };
+		8488FB9F1166AC1A000E9D90 /* stopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8488FB9B1166AC1A000E9D90 /* stopbutton.png */; };
+		8488FD8E1166D5D8000E9D90 /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8488FD8D1166D5D8000E9D90 /* Icon.jpg */; };
+		8488FD991166DB28000E9D90 /* ico_nerdinho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8488FD981166DB28000E9D90 /* ico_nerdinho.jpg */; };
+		84CEDD8111641485006994B5 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CEDD7F11641485006994B5 /* IconDownloader.m */; };
+		84CEDDD611641AEF006994B5 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CEDDD511641AEF006994B5 /* Placeholder.png */; };
+		84CEDE84116434A1006994B5 /* tit_podcast.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84CEDE83116434A1006994B5 /* tit_podcast.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* NerdcastPlayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NerdcastPlayerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* NerdcastPlayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NerdcastPlayerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* NerdcastPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NerdcastPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* NerdcastPlayer.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = NerdcastPlayer.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* NerdcastPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NerdcastPlayer_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840A69091163815A00AB6C78 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		840A690A1163815A00AB6C78 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		840A690B1163815A00AB6C78 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailViewController.xib; path = Classes/DetailViewController.xib; sourceTree = "<group>"; };
+		840A6911116384F000AB6C78 /* jn_classico_celular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jn_classico_celular.jpg; sourceTree = "<group>"; };
+		840A69E71163B7CB00AB6C78 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		840A69E81163B7CB00AB6C78 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		840A69FB1163B80300AB6C78 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		840A6A031163B81E00AB6C78 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		840A6A051163B81E00AB6C78 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		840A6B111163B83F00AB6C78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		840A6BD31163C0A400AB6C78 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		840A6BD41163C0A400AB6C78 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		840A6BD51163C0A400AB6C78 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		840A6BD61163C0A400AB6C78 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		840A6BD71163C0A400AB6C78 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		840A6BD81163C0A400AB6C78 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		840A6BD91163C0A400AB6C78 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		840A6BDA1163C0A400AB6C78 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		840A6BDB1163C0A400AB6C78 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		840A6BDC1163C0A400AB6C78 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		840A6BDD1163C0A400AB6C78 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		840A6BDE1163C0A400AB6C78 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		840A6BDF1163C0A400AB6C78 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		840A6BE01163C0A400AB6C78 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		840A6C131163C0F900AB6C78 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		840A6C431163C13000AB6C78 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8488FB881166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneStreamingPlayerViewController.h; sourceTree = "<group>"; };
+		8488FB891166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneStreamingPlayerViewController.m; sourceTree = "<group>"; };
+		8488FB8B1166AA42000E9D90 /* iPhoneStreamingPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iPhoneStreamingPlayerViewController.xib; path = Classes/iPhoneStreamingPlayerViewController.xib; sourceTree = "<group>"; };
+		8488FB981166AC1A000E9D90 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
+		8488FB991166AC1A000E9D90 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		8488FB9A1166AC1A000E9D90 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		8488FB9B1166AC1A000E9D90 /* stopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopbutton.png; sourceTree = "<group>"; };
+		8488FD8D1166D5D8000E9D90 /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		8488FD981166DB28000E9D90 /* ico_nerdinho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ico_nerdinho.jpg; sourceTree = "<group>"; };
+		84CEDD7F11641485006994B5 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		84CEDD8011641485006994B5 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		84CEDDD511641AEF006994B5 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		84CEDE83116434A1006994B5 /* tit_podcast.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tit_podcast.gif; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* NerdcastPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NerdcastPlayer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+				840A69FC1163B80300AB6C78 /* MediaPlayer.framework in Frameworks */,
+				840A6A041163B81E00AB6C78 /* AudioToolbox.framework in Frameworks */,
+				840A6A061163B81E00AB6C78 /* CFNetwork.framework in Frameworks */,
+				840A6B121163B83F00AB6C78 /* QuartzCore.framework in Frameworks */,
+				840A6C141163C0F900AB6C78 /* libz.1.2.3.dylib in Frameworks */,
+				840A6C441163C13000AB6C78 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				840A69E71163B7CB00AB6C78 /* AudioStreamer.h */,
+				840A69E81163B7CB00AB6C78 /* AudioStreamer.m */,
+				840A69091163815A00AB6C78 /* DetailViewController.h */,
+				840A690A1163815A00AB6C78 /* DetailViewController.m */,
+				84CEDD8011641485006994B5 /* IconDownloader.h */,
+				84CEDD7F11641485006994B5 /* IconDownloader.m */,
+				8488FB881166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.h */,
+				8488FB891166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m */,
+				1D3623240D0F684500981E51 /* NerdcastPlayerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* NerdcastPlayerAppDelegate.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* NerdcastPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* NerdcastPlayer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8488FD981166DB28000E9D90 /* ico_nerdinho.jpg */,
+				8488FD8D1166D5D8000E9D90 /* Icon.jpg */,
+				8488FB981166AC1A000E9D90 /* loadingbutton.png */,
+				8488FB991166AC1A000E9D90 /* pausebutton.png */,
+				8488FB9A1166AC1A000E9D90 /* playbutton.png */,
+				8488FB9B1166AC1A000E9D90 /* stopbutton.png */,
+				84CEDE83116434A1006994B5 /* tit_podcast.gif */,
+				84CEDDD511641AEF006994B5 /* Placeholder.png */,
+				840A6911116384F000AB6C78 /* jn_classico_celular.jpg */,
+				28860B760F44E54D00985440 /* NerdcastPlayer.xcdatamodel */,
+				840A690B1163815A00AB6C78 /* DetailViewController.xib */,
+				8488FB8B1166AA42000E9D90 /* iPhoneStreamingPlayerViewController.xib */,
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* NerdcastPlayer-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840A6BD21163C0A400AB6C78 /* ASIHTTPRequest */,
+				840A6C431163C13000AB6C78 /* SystemConfiguration.framework */,
+				840A6C131163C0F900AB6C78 /* libz.1.2.3.dylib */,
+				840A6B111163B83F00AB6C78 /* QuartzCore.framework */,
+				840A69FB1163B80300AB6C78 /* MediaPlayer.framework */,
+				840A6A031163B81E00AB6C78 /* AudioToolbox.framework */,
+				840A6A051163B81E00AB6C78 /* CFNetwork.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840A6BD21163C0A400AB6C78 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				840A6BD31163C0A400AB6C78 /* ASIAuthenticationDialog.h */,
+				840A6BD41163C0A400AB6C78 /* ASIAuthenticationDialog.m */,
+				840A6BD51163C0A400AB6C78 /* ASIFormDataRequest.h */,
+				840A6BD61163C0A400AB6C78 /* ASIFormDataRequest.m */,
+				840A6BD71163C0A400AB6C78 /* ASIHTTPRequest.h */,
+				840A6BD81163C0A400AB6C78 /* ASIHTTPRequest.m */,
+				840A6BD91163C0A400AB6C78 /* ASIInputStream.h */,
+				840A6BDA1163C0A400AB6C78 /* ASIInputStream.m */,
+				840A6BDB1163C0A400AB6C78 /* ASINetworkQueue.h */,
+				840A6BDC1163C0A400AB6C78 /* ASINetworkQueue.m */,
+				840A6BDD1163C0A400AB6C78 /* ASINSStringAdditions.h */,
+				840A6BDE1163C0A400AB6C78 /* ASINSStringAdditions.m */,
+				840A6BDF1163C0A400AB6C78 /* Reachability.h */,
+				840A6BE01163C0A400AB6C78 /* Reachability.m */,
+			);
+			name = ASIHTTPRequest;
+			path = Classes/ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* NerdcastPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NerdcastPlayer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NerdcastPlayer;
+			productName = NerdcastPlayer;
+			productReference = 1D6058910D05DD3D006BFB54 /* NerdcastPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NerdcastPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* NerdcastPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				840A690D1163815A00AB6C78 /* DetailViewController.xib in Resources */,
+				840A6912116384F000AB6C78 /* jn_classico_celular.jpg in Resources */,
+				84CEDDD611641AEF006994B5 /* Placeholder.png in Resources */,
+				84CEDE84116434A1006994B5 /* tit_podcast.gif in Resources */,
+				8488FB8C1166AA42000E9D90 /* iPhoneStreamingPlayerViewController.xib in Resources */,
+				8488FB9C1166AC1A000E9D90 /* loadingbutton.png in Resources */,
+				8488FB9D1166AC1A000E9D90 /* pausebutton.png in Resources */,
+				8488FB9E1166AC1A000E9D90 /* playbutton.png in Resources */,
+				8488FB9F1166AC1A000E9D90 /* stopbutton.png in Resources */,
+				8488FD8E1166D5D8000E9D90 /* Icon.jpg in Resources */,
+				8488FD991166DB28000E9D90 /* ico_nerdinho.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* NerdcastPlayerAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				28860B770F44E54D00985440 /* NerdcastPlayer.xcdatamodel in Sources */,
+				840A690C1163815A00AB6C78 /* DetailViewController.m in Sources */,
+				840A69E91163B7CB00AB6C78 /* AudioStreamer.m in Sources */,
+				840A6BE11163C0A400AB6C78 /* ASIAuthenticationDialog.m in Sources */,
+				840A6BE21163C0A400AB6C78 /* ASIFormDataRequest.m in Sources */,
+				840A6BE31163C0A400AB6C78 /* ASIHTTPRequest.m in Sources */,
+				840A6BE41163C0A400AB6C78 /* ASIInputStream.m in Sources */,
+				840A6BE51163C0A400AB6C78 /* ASINetworkQueue.m in Sources */,
+				840A6BE61163C0A400AB6C78 /* ASINSStringAdditions.m in Sources */,
+				840A6BE71163C0A400AB6C78 /* Reachability.m in Sources */,
+				84CEDD8111641485006994B5 /* IconDownloader.m in Sources */,
+				8488FB8A1166A9CF000E9D90 /* iPhoneStreamingPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NerdcastPlayer_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "NerdcastPlayer-Info.plist";
+				PRODUCT_NAME = NerdcastPlayer;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NerdcastPlayer_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "NerdcastPlayer-Info.plist";
+				PRODUCT_NAME = NerdcastPlayer;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NerdcastPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NerdcastPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

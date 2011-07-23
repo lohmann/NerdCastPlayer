@@ -1,0 +1,113 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* NerdcastPlayerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2371, 1976}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{335, 1304}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* NerdcastPlayer */ = {
+		activeExec = 0;
+		executables = (
+			8924FC6A12C9130D0080BD41 /* NerdcastPlayer */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8924FC6A12C9130D0080BD41 /* NerdcastPlayer */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* NerdcastPlayer */;
+		codeSenseManager = 8924FC7F12C913240080BD41 /* Code sense */;
+		executables = (
+			8924FC6A12C9130D0080BD41 /* NerdcastPlayer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					787,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315167501;
+			PBXWorkspaceStateSaveDate = 315167501;
+		};
+		perUserProjectItems = {
+			8924FC7712C913240080BD41 /* PBXBookmark */ = 8924FC7712C913240080BD41 /* PBXBookmark */;
+			8924FC7812C913240080BD41 /* PBXTextBookmark */ = 8924FC7812C913240080BD41 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8924FC7E12C913240080BD41 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8924FC6A12C9130D0080BD41 /* NerdcastPlayer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = NerdcastPlayer;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8924FC7712C913240080BD41 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1D3623250D0F684500981E51 /* NerdcastPlayerAppDelegate.m */;
+	};
+	8924FC7812C913240080BD41 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* NerdcastPlayerAppDelegate.m */;
+		name = "NerdcastPlayerAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1304;
+		vrLoc = 335;
+	};
+	8924FC7E12C913240080BD41 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8924FC7F12C913240080BD41 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
